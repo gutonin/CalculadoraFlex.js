@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>Calculadora Flex</title>
+    </head>
+    <body>
+        <h1><center>Calculadora Flex</center></h1>
+        <h3><center>A calculadora Flex server para indicar qual é o melhor custo
+             beneficio entre Etanor e Gasolina</center></h3>
+            <center><img src="gasolina.png"></center>
+            <form name="frmFlex">
+                <label for = "etanol" class="title">Digite o valor do Etanol:</label>
+                </br>
+                <input type="text" placeholder="Etanol" size="10" name="txtEtanol">
+                </br>
+                </br>
+                <label for="gasolina" class="title">Digite o valor da Gasolina:</label>
+                </br>
+                <input type="text" placeholder="Gasolina" size="10" name="txtGasolina">
+                </br>
+                </br>
+                <input type="button" value="Calcular" onclick="calcular()">
+                <input type="reset" value="Limpar">
+            </form>
+        <script src="calcflex.js"></script>     
+    </body>
+</html>
